@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, ::before, ::after {
+    border-color: #102A43;
+  }
+  ::placeholder {
+    color: #AEBCC5;
+  }
+}
+
+:root {
+  --color-bg-main: #07111F;
+  --color-bg-surface: #102A43;
+  --color-text-main: #F4F0E8;
+  --color-accent-gold: #C9AA72;
+  --color-text-muted: #AEBCC5;
+  --color-accent-lime: #A8F238;
+}
+
+body {
+  background-color: #07111F;
+  color: #F4F0E8;
+  font-family: var(--font-manrope), sans-serif;
+  overflow-x: hidden;
+}
